@@ -32,7 +32,7 @@ jobs:
       - name: Copy latest documents
         run: |
           mkdir open-contents
-          cp README.md OPEN.md open-contents/
+          cp -ri README.md OPEN.md img open-contents/
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
