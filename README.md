@@ -5,5 +5,5 @@ this is open contents.
 
 [this is open page](./OPEN.md)
 
-[put an image](./img/azure.png)
+![put an image](./img/azure.png)
 
